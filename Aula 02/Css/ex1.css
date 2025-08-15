@@ -1,0 +1,31 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+#centralizada {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+#botao {
+  background-color: blue;
+  color: white;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  transform: translate(0) scale(1);
+  width: 200px;
+}
+
+#botao:hover {
+  transform: scale(1.1);
+}
+
+#gatinho {
+  width: 200px;
+  display: none;
+}
