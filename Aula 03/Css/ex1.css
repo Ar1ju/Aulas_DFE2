@@ -1,0 +1,12 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    margin-top: 5%;
+}
+
+#centralizado {
+    display: grid;
+    place-items: center;
+}
